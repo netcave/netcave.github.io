@@ -69,7 +69,8 @@ jobs:
 
   # Deployment job
   deploy:
-    runs-on: self-hosted
+    # runs-on: self-hosted
+    runs-on: ubuntu-latest
     container: ubuntu:22.04
 
     needs: build
