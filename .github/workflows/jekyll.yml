@@ -29,7 +29,8 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: self-hosted
+    # runs-on: self-hosted
+    runs-on: ubuntu-latest
     container: 
       image: ghcr.io/codemonkey-science/jekyll-ci-image:latest
 
